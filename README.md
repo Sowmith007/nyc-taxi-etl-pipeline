@@ -1,23 +1,26 @@
-NYC Taxi ETL Pipeline
+# NYC Taxi ETL & Machine Learning Pipeline
 
-This project demonstrates a simple data engineering pipeline that extracts, transforms, and loads NYC taxi trip data.
+This project demonstrates a data engineering and machine learning pipeline using the NYC Taxi dataset.
 
-Technologies Used
-- Python
-- Pandas
-- Parquet
-- Google Colab
+## Dataset
+NYC Taxi Trip Records (~7.6 million trips)
 
-Pipeline Steps
-1. Extract NYC taxi dataset
-2. Transform data (cleaning and feature engineering)
-3. Aggregate trip statistics
-4. Store cleaned data in Parquet format
-5. Generate analytics summary
+## Pipeline Steps
+1. Data ingestion
+2. Data cleaning
+3. Feature engineering
+4. Exploratory data analysis
+5. Machine learning model training
 
-Dataset
-NYC Taxi Trip Data
+## Model
+Random Forest Regressor
 
-Output
-- clean_taxi_data.parquet
-- trip_summary.csv
+Performance:
+R² Score: 0.87
+
+## Technologies
+Python  
+Pandas  
+Scikit-learn  
+Matplotlib  
+Seaborn  
